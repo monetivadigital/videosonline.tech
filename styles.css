@@ -1,0 +1,348 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/*---------------------SEC1---------------------*/
+
+body{
+    background-color: #000000;
+}
+
+.sec1{
+    margin: auto;
+    background-image: linear-gradient(to top, #000000, #0c070b, #100e15, #10151d, #0a1b23, #072027, #05242a, #03292c, #032e31, #043236, #04373c, #043c41);
+}
+
+.sec1div{
+    max-width: 700px;
+    margin: auto;
+    padding: 50px 25px;
+}
+
+.sec1div img{
+    width: 500px;
+    max-width: 100%;
+}
+
+.noise {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    opacity: .17;
+    background-image: url(img/noise.gif);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 1;
+    mix-blend-mode: plus-lighter;
+}
+
+button{
+    all: unset;
+    cursor: pointer;
+}
+
+.btn{
+    background-color: #0EC4BB;
+    padding: 20px 40px;
+    border-radius: 50px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2em;
+    transition: 0.2s;
+}
+.btn:hover{
+    background-color: #05b4ab;
+    transition: 0.2s;
+}
+
+/*---------------------SEC2---------------------*/
+
+.sec2{
+    margin: auto;
+    background: rgba(0,0,0,1);
+}
+
+.sec2div{
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px 25px;
+}
+
+.sec2div h1{
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.sec2div p{
+    color: #0EC4BB;
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+.depoimentos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/*---------------------SEC2-1---------------------*/
+
+.sec2-1{
+    margin: auto;
+    background: #09aca4;
+}
+
+.sec2-1div{
+    max-width: 1000px;
+    margin: auto;
+    padding: 15px 25px;
+}
+
+/*---------------------SEC3---------------------*/
+
+.sec3{
+    margin: auto;
+    background: #0a1b23;
+}
+
+.sec3div{
+    max-width: 1000px;
+    margin: auto;
+    padding: 50px 25px;
+}
+
+.sec3 img{
+    width: 150px;
+    max-width: 100%;
+}
+
+.sec3div h1{
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    margin: 20px;
+    text-transform: uppercase;
+}
+
+.sec3div p{
+    color: #d4d4d4;
+    text-align: center;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+/*---------------------SEC4---------------------*/
+
+.sec4{
+    margin: auto;
+    background: rgba(0,0,0,1);
+}
+
+.sec4div{
+    max-width: 1000px;
+    margin: auto;
+    padding: 50px 25px;
+}
+
+.sec4div h1{
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.sec4div p{
+    color: #d4d4d4;
+    text-align: center;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.benefits{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.bene-info{
+    background-color: #ffffff26;
+    border-radius: 0px;
+    margin: 10px;
+    padding: 30px;
+    border: 1px solid #0EC4BB;
+}
+
+.benefits h1{
+    color: #0EC4BB;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+.benefits p{
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: 200;
+    line-height: 1.2em;
+}
+
+.sec4div h2{
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+/*---------------------FOOTER---------------------*/
+
+.footer{
+    margin: auto;
+    background: #000;
+    text-align: center;
+}
+
+.footerdiv{
+    max-width: 1000px;
+    margin: auto;
+    padding: 15px;
+}
+
+.footer p{
+    color: rgb(79, 79, 79);
+    font-size: 12px;
+    font-weight: 200;
+}
+
+/*---------------------TABLET---------------------*/
+
+@media only screen and (max-device-width: 640px) {
+    .depoimentos{
+        display: block;
+    }
+
+    .benefits{
+        display: block;
+    }
+
+    .topbar p{
+        font-size: 16px !important;
+        text-align: center !important;
+        line-height: 1.1em !important;
+    }
+
+    .brsec1 h1 {
+        font-size: 30px !important;
+        text-align: center;
+        line-height: 1.2em;
+    }
+
+    .brsec2div h1 {
+        font-size: 40px !important;
+    }
+
+
+}
+
+/*---------------------TOPBAR---------------------*/
+
+.topbar{
+    margin: auto;
+    background: #eac10a;
+}
+
+.topbardiv{
+    max-width: 1000px;
+    margin: auto;
+    padding: 15px 25px;
+}
+
+
+/*---------------------BRSEC1---------------------*/
+
+.brsec1{
+    margin: auto;
+    background-color: #fff;
+}
+
+.brsec1div{
+    max-width: 1000px;
+    margin: auto;
+    padding: 50px 25px;
+}
+
+.brsec1 h1{
+    font-size: 50px;
+    text-align: center;
+    line-height: 1.2em;
+}
+
+/*---------------------BRSEC2---------------------*/
+
+.brsec2{
+    margin: auto;
+    background: rgba(0,0,0,1);
+}
+
+.brsec2div{
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px 25px;
+}
+
+.brsec2div h1{
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 1.2em;
+}
+
+.brsec2div p{
+    color: #ffffff;
+    text-align: center;
+    font-weight: 200;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+/*---------------------BRSEC2---------------------*/
+
+.brsec3{
+    margin: auto;
+    background: red;
+    text-align: center;
+}
+
+.brsec3div{
+    max-width: 1200px;
+    margin: auto;
+    padding: 25px;
+}
+
+.brsec3 h1{
+    font-size: 40px;
+    color: #fff;
+}
+
+.brsec3 p{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+}
